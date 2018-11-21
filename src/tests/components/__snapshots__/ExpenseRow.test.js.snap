@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseRow with expenses 1`] = `
+<div
+  className="list-item"
+>
+  <Link
+    replace={false}
+    to="edit/1"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="col-1"
+      >
+        <div>
+           description : 
+          rent
+           
+        </div>
+        <div>
+           Date: 
+          01/01/1970
+           
+        </div>
+      </div>
+      <div
+        className="list"
+      >
+        Amount: 
+        100
+      </div>
+    </div>
+  </Link>
+  <button
+    className="button button--secondary"
+    onClick={[Function]}
+  >
+     Remove 
+  </button>
+</div>
+`;
